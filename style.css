@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+:root {
+    --main-bg-color: #2874f0;
+  }
+  *{
+    padding: 0;
+    margin: 0;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    background-color: blueviolet;
+    justify-content: center;
+}
+
+
+
+
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+   
+}
+
+nav ul li{
+    list-style: none; 
+    padding: 0 23px;
+}
+
+nav ul li a{
+    color: red;
+    text-decoration: none;
+}
+
+nav ul li a:hover{ 
+    font-weight: bolder;
+}
+.search{
+    display: flex;
+    align-items: center;
+  
+}
+
+.search input{
+    width: 30vw;
+    height: 27px;
+    border-radius: 5px;
+    margin: 0 16px 0 56px;
+    padding:0 12px;
+}
+
+.search button{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+}
+
+.slider{ 
+    width: auto;
+    height: auto;
+    margin: 12px auto;
+    overflow: hidden;
+}
+
+.container{
+    min-height: calc(100vh - 58px - 12vh);
+}
+footer{
+    height: 12vh;
+    background-color: var(--main-bg-color); 
+    color: white;
+    font-family: 'Lato', sans-serif;
+    align-items: center;
+}
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    padding: 5px 10px;
+    color: white;
+    background: var(--main-bg-color);
+    border: 2px solid white;
+    border-radius: 7px;
+    cursor: pointer; 
+}
+
+.box{
+display: inline-flex;
+justify-content: center;
+flex-direction: column;
+margin: 0 400px;
+}
+header nav{
+    background-attachment: f;
+}
+body{
+    background-color: aquamarine;
+}
+.BOX1{
+    justify-content: center;
+    font-size: large;
+    font-weight: 200;
+    font-family: fantasy;
+}
+.BOX2{
+    justify-content: center;
+    font-size: large;
+    font-weight: 200;
+    font-family: fantasy;
+}
+.BOX3{ justify-content: center;
+    font-size: large;
+    font-weight: 200;
+    font-family: fantasy;
+    
+    }
